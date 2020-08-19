@@ -1,17 +1,22 @@
 import React from "react";
 import "./App.scss";
 import { Link, animateScroll } from "react-scroll";
+import FadeIn from 'react-fade-in';
 
 export default function header() {
   return (
     <div className="header">
       <div className="header-content">
         <br />
+        <FadeIn delay={300} transitionDuration={2000}>
         <h1>
-          Estevan Acevedo
-          <br />
-          Full-stack Web Developer
-        </h1>
+            Estevan Acevedo
+            </h1>
+          
+          <h2>
+            Full-stack Web Developer
+        </h2>
+          <br/>
 
         <Link
           activeClass="active"
@@ -55,6 +60,7 @@ export default function header() {
           </a>
           </div>
           </Link>
+          </FadeIn>
       </div>
     </div>
   );
