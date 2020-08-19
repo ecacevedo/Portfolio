@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@700&display=swap" rel="stylesheet');
+@import "bourbon";
+
+$maincolor: #000;
+
+.App {
+  background: $maincolor;
+  color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  /* CSS Smooth Scroll */
+  overflow-y: scroll; 
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  scroll-snap-align: center;
+}
+
+#about-me{
+  scroll-snap-align: center;
+}
+
+h2 {
+  margin: 0;
+}
+
+.header {
+  background-image: url(./images/unsplash-KwJ3FEuwRlE-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+  height: 100vh;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.resume-background {
+  height: 100vh;
+  background-image: url(./images/reza-namdari-ZgZsKFnSbEA-unsplash.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+
+  .Resume {
+    font-family: "Lato", sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .Skills {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+
+    h1 {
+      text-align: center;
+      margin: auto;
+    }
+  }
+
+  .my-picture {
+    height: 50vh;
+  }
+
+  .my-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .resume-title {
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+  }
+
+  .skill-box {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+
+  .skill-logo-box-individual {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .skill-logo {
+    height: 80px;
+    margin: auto;
+  }
+
+  .education-list {
+    ul {
+      font-size: 50px;
+    }
+
+    li {
+      font-size: 30px;
+    }
+  }
+}
+
+.projects-background {
+  background-image: url(./images/florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+
+  .projects {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.project-image {
+  height: 40vh;
+  width: 60vh;
+}
+
+.individual-project {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.project-headers {
+  color: #ffffff;
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-family: "Lato", sans-serif;
+}
+
+.project-headers:hover {
+  color: #c411e7;
+}
+
+.projects-title {
+  color: #ffffff;
+  font-size: 50px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+.btn-container {
+  text-align: center;
+  
+}
+
+.elegant {
+  // display: inline-block;
+  margin: 4em auto;
+  padding: 10px 20px;
+  border: 1px solid #cc9900;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  margin: 30px auto;
+  color: #333333;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  background: #fafafa;
+
+
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -18px;
+    left: 52%;
+    width: 30px;
+    height: 10px;
+    border-top: 1px solid #cc9900;
+     transform: (rotate(-65deg));
+     transition: (all 0.7s ease);
+  }
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -22px;
+    left: 38%;
+    width: 30px;
+    height: 10px;
+    border-top: 1px solid #cc9900;
+     transform: (rotate(-65deg));
+     transition: (all 0.7s ease);
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    &:before {
+       transform: (rotate(-130deg));
+      top: -21px;
+      left: 35%;
+    }
+    &:after {
+       transform: (rotate(-130deg));
+      left: 60%;
+      bottom: -15px;
+    }
+  }
+}

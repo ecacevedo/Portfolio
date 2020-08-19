@@ -1,15 +1,20 @@
 import React from 'react';
+import './App.scss';
+import Projects from './projects';
+import Contact from './contact'
+import Header from './header'
+import Resume from './resume'
 
-import './App.css';
 
 function App() {
   return (
     <div className="App">
      
-        <p>
-          Hi! My Name is Estevan Acevedo. test
-        </p>
-       
+      <Header />
+      <Resume />
+     
+      <Projects />
+      <Contact />
   
     </div>
   );
