@@ -22,21 +22,26 @@ export default function resume() {
               consistent feedback.
             </p>
 
-            <div className="education-divst">
-              <ul className="education-divst-title">
+            <div>
+              <div>
                 General Assembly
+                
                 <div>Software Emersive Certificate - 2020</div>
-              </ul>
-              <ul className="education-divst-title">
+                
+              </div>
+              <br/>
+              <div>
                 Indeed
+                
                 <div>Client Success Specialist 2019-2020</div>
-              </ul>
-
-              <ul className="education-divst-title">
+              </div>
+              <br/>
+              <div>
                 University of Arizona
+                 
                 <div>Philosophy, BA</div>
                 <div>Molecular & Cellular Biology, BS </div>
-              </ul>
+              </div>
             </div>
           </div>
         
