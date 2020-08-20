@@ -33,12 +33,12 @@ export default function resume() {
                 <div>Client Success Specialist 2019-2020</div>
               </div>
               <br />
-              <div>
+              <div className="uofa-div">
                 <b>University of Arizona</b>
                 <div>Philosophy, BA</div>
                 <div>Molecular & Cellular Biology, BS </div>
               </div>
-            </div><br/><br/><br/>
+            </div>
             <div class="btn-container">
             <a class="elegant" href={ResumePdf} target="_blank">
                 View Resume
