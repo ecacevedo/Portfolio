@@ -8,7 +8,7 @@ import "./App.scss";
 export default function contact() {
   return (
     <div id="contact">
-      <h1>Contact me</h1>
+      <h1>Contact Me</h1>
       <p className="contact-blurb">
         I live in Mesa, Arizona. Feel free to reach out, I'm currently open to
         job opportunities.

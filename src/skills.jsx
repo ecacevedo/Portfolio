@@ -23,7 +23,7 @@ export default function skills() {
     <div>
        <div className="Skills">
           <ul>
-            <h1>Skills</h1><br/>
+            <h1>Skills</h1><br/><br/><br/>
 
             <div className="skill-box">
               <div className="skill-logo-box-individual">

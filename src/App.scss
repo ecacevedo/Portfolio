@@ -57,6 +57,11 @@ h2 {
     display: flex;
     justify-content: center;
     text-align: center;
+b{
+  font-weight: 900;
+  
+}
+
   }
 
   .my-picture {
@@ -143,6 +148,8 @@ h2 {
   align-items: center;
   flex-direction: column;
   margin: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .project-headers {
@@ -332,6 +339,45 @@ a {
     }
   }
 
+  .resume-background {
+    height: 100vh;
+    background-image: url(./images/reza-namdari-ZgZsKFnSbEA-unsplash.jpg);
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    .Resume {
+      font-family: "Lato", sans-serif;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+  b{
+    font-weight: 900;
+    
+  }
+  
+    }
+  
+    .my-picture {
+      height: 40vh;
+    }
+  
+    .my-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .resume-title {
+      color: #ffffff;
+      font-size: 50px;
+      text-align: center;
+      font-family: "Raleway", sans-serif;
+    }
+  
+  }
+
   .project-image {
     height: 18vh;
     width: 30vh;
@@ -341,10 +387,18 @@ a {
     font-size: 20px;
   }
 
+  .individual-project {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  
+
   display: flex;
     flex-direction: column;
     align-items: center;
 
-    
 
 }
