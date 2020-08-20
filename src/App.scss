@@ -261,14 +261,28 @@ a {
   justify-content: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 926px) {
   .project-image {
-    height: 30vh;
+    height: 25vh;
     width: 40vh;
+  }
+  .project-headers{
+    font-size: 30px;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 817px) {
+  .project-image {
+    height: 20vh;
+    width: 35vh;
+  }
+  .project-headers{
+    font-size: 30px;
+  }
+}
+
+
+@media (max-width: 713px) {
   h1 {
     font-size: 50px;
   }
