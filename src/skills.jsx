@@ -16,6 +16,7 @@ import PostgreSQLLogo from "./images/postgresql.png";
 import JestLogo from "./images/jest.png";
 import HerokuLogo from "./images/heroku.png";
 import GithubLogo from "./images/github.png";
+import Ex from "./images/ex.png"
 
 export default function skills() {
   return (
@@ -23,8 +24,8 @@ export default function skills() {
     <div>
        <div className="Skills">
           <ul>
-            <h1>Skills</h1><br/><br/><br/>
-
+            <h1>Skills</h1>
+            <div className="skill-boxes">
             <div className="skill-box">
               <div className="skill-logo-box-individual">
                 <img className="skill-logo" src={HtmlLogo} />
@@ -85,7 +86,7 @@ export default function skills() {
                 <div>MongoDB</div>
               </div>
               <div className="skill-logo-box-individual">
-                <img className="skill-logo" src={ExpressLogo} />
+                <img className="skill-logo" src={Ex} />
                 <div>Express</div>
               </div>
               <div className="skill-logo-box-individual">
@@ -108,7 +109,8 @@ export default function skills() {
                 <img className="skill-logo" src={GithubLogo} />
                 <div>Github</div>
               </div>
-            </div>
+              </div>
+              </div>
           </ul>
         </div>
       </div>

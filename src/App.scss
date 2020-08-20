@@ -58,11 +58,9 @@ h2 {
     display: flex;
     justify-content: center;
     text-align: center;
-b{
-  font-weight: 900;
-  
-}
-
+    b {
+      font-weight: 900;
+    }
   }
 
   .my-picture {
@@ -81,10 +79,9 @@ b{
     text-align: center;
     font-family: "Raleway", sans-serif;
   }
-  .uofa-div{
+  .uofa-div {
     margin-bottom: 45px;
   }
-
 }
 
 .Skills {
@@ -111,11 +108,20 @@ b{
     margin-bottom: 20px;
   }
 
+  .skill-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5vh;
+  }
+
   .skill-logo-box-individual {
     display: flex;
     align-items: center;
     flex-direction: column;
     margin: auto;
+    padding-right: 4px;
+    padding-left: 4px;
   }
 
   .skill-logo {
@@ -123,7 +129,9 @@ b{
     margin: auto;
   }
 
-  ul{
+ 
+
+  ul {
     padding-left: 0px;
   }
 }
@@ -277,7 +285,7 @@ a {
     height: 25vh;
     width: 40vh;
   }
-  .project-headers{
+  .project-headers {
     font-size: 30px;
   }
 }
@@ -287,11 +295,10 @@ a {
     height: 20vh;
     width: 35vh;
   }
-  .project-headers{
+  .project-headers {
     font-size: 30px;
   }
 }
-
 
 @media (max-width: 713px) {
   h1 {
@@ -305,40 +312,42 @@ a {
     display: flex;
     justify-content: center;
     height: 100vh;
-  
+
     background-image: url(./images/markus-spiske-hvSr_CVecVI-unsplash.jpg);
-  
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     font-family: "Lato", sans-serif;
-  
+
     h1 {
       text-align: center;
       margin: auto;
       font-family: "Raleway", sans-serif;
       margin-bottom: 30px;
     }
-  
+
     .skill-box {
       display: flex;
       flex-direction: row;
       margin-bottom: 40px;
     }
-  
+
     .skill-logo-box-individual {
       display: flex;
       align-items: center;
       flex-direction: column;
       margin: auto;
     }
-  
+
     .skill-logo {
-      height: 40px;
+      height: 70px;
       margin: auto;
     }
 
-    ul{
+   
+
+    ul {
       padding-left: 0px;
     }
   }
@@ -346,48 +355,45 @@ a {
   .resume-background {
     height: 100vh;
     background-image: url(./images/reza-namdari-ZgZsKFnSbEA-unsplash.jpg);
-  
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-  
+
     .Resume {
       font-family: "Lato", sans-serif;
       display: flex;
       justify-content: center;
       text-align: center;
-  b{
-    font-weight: 900;
-    
-  }
-  
+      b {
+        font-weight: 900;
+      }
     }
-  
+
     .my-picture {
       height: 35vh;
     }
-  
+
     .my-info {
       display: flex;
       flex-direction: column;
       align-items: center;
     }
-  
+
     .resume-title {
       color: #ffffff;
       font-size: 50px;
       text-align: center;
       font-family: "Raleway", sans-serif;
     }
-  
   }
 
   .project-image {
     height: 16vh;
     width: 28vh;
   }
-    
-  .project-headers{
+
+  .project-headers {
     font-size: 20px;
   }
 
@@ -398,11 +404,8 @@ a {
     margin: auto;
     margin-bottom: 10px;
   }
-  
 
   display: flex;
-    flex-direction: column;
-    align-items: center;
-
-
+  flex-direction: column;
+  align-items: center;
 }
