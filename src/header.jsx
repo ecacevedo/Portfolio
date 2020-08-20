@@ -31,6 +31,20 @@ export default function header() {
               About Me
             </a>
           </div>
+          </Link>
+          <Link
+          activeClass="active"
+          to="skills"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+        >
+        <div class="btn-container">
+          <a class="elegant" href="#skills">
+          &nbsp;&nbsp;&nbsp;Skills &nbsp;&nbsp;&nbsp;
+          </a>
+        </div>
         </Link>
         <Link
           activeClass="active"
@@ -45,7 +59,8 @@ export default function header() {
             Projects
           </a>
         </div>
-        </Link>
+          </Link>
+          
         <Link
           activeClass="active"
           to="contact"
@@ -56,7 +71,7 @@ export default function header() {
         >
         <div class="btn-container">
           <a class="elegant" href="#contact">
-            Contact
+          &nbsp;Contact&nbsp;
           </a>
           </div>
           </Link>

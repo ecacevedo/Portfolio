@@ -4,6 +4,7 @@ import Projects from './projects';
 import Contact from './contact'
 import Header from './header'
 import Resume from './resume'
+import Skills from './skills'
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
      
       <Header />
       <Resume />
-     
+      <Skills />
       <Projects />
       <Contact />
   

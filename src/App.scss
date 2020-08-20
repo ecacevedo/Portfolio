@@ -9,10 +9,7 @@ $maincolor: #000;
   overflow: hidden;
   width: 100%;
   height: 100%;
-  /* CSS Smooth Scroll */
-  overflow-y: scroll; 
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
+ 
 }
 
 section {
@@ -23,8 +20,13 @@ section {
   scroll-snap-align: center;
 }
 
-h2 {
+h2,h1 {
   margin: 0;
+  
+}
+
+h1{
+  font-size: 75px;
 }
 
 .header {
@@ -51,20 +53,11 @@ h2 {
   .Resume {
     font-family: "Lato", sans-serif;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
   }
 
-  .Skills {
-    display: flex;
-    justify-content: space-between;
-    height: 100vh;
 
-    h1 {
-      text-align: center;
-      margin: auto;
-    }
-  }
 
   .my-picture {
     height: 50vh;
@@ -80,6 +73,38 @@ h2 {
     color: #ffffff;
     font-size: 50px;
     text-align: center;
+    font-family: "Raleway", sans-serif;
+  }
+
+  
+
+  .education-list {
+    ul {
+      font-size: 50px;
+    }
+
+    li {
+      font-size: 30px;
+    }
+  }
+}
+
+.Skills {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  
+  background-image: url(./images/markus-spiske-hvSr_CVecVI-unsplash.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Lato", sans-serif;
+
+  h1 {
+   
+    text-align: center;
+    margin: auto;
     font-family: "Raleway", sans-serif;
   }
 
@@ -100,16 +125,6 @@ h2 {
     height: 80px;
     margin: auto;
   }
-
-  .education-list {
-    ul {
-      font-size: 50px;
-    }
-
-    li {
-      font-size: 30px;
-    }
-  }
 }
 
 .projects-background {
@@ -118,17 +133,18 @@ h2 {
   background-size: cover;
   background-position: center;
   margin: auto;
+  height: 100vh;
 
   .projects {
-    height: 100vh;
+   
     display: flex;
     flex-wrap: wrap;
   }
 }
 
 .project-image {
-  height: 40vh;
-  width: 60vh;
+  height: 30vh;
+  width: 45vh;
 }
 
 .individual-project {
@@ -181,6 +197,7 @@ a {
   font-family: "Lato", sans-serif;
   font-size: 15px;
   background: #fafafa;
+ 
 
 
   &:before {
@@ -223,12 +240,40 @@ a {
   }
 }
 
+#contact{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+
+  h1{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+
+  }
+   p{
+    text-align: center;
+    font-family: "Lato", sans-serif;
+  }
+
+ 
+  .contact-blurb{
+    margin-bottom: 60px;
+  }
+}
+
 .contact-logo{
-  height: 40px;
+  height: 60px;
 }
 
 
 .contact-grid{
   display: flex;
-    flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+
+.footer-logos{
+  display:flex;
+ justify-content: center;
 }
