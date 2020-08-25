@@ -14,7 +14,7 @@ export default function header() {
             </h1>
           
           <h2>
-            Full-Stack Web Developer
+            Full-Stack Software Engineer
         </h2>
           
 

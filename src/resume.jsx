@@ -15,11 +15,7 @@ export default function resume() {
             <img className="my-picture" src={MyPicture} />
 
             <p>
-              I am an analytical Software Engineer driven by coming to creative
-              solutions to novel problems. <br /> I learn ambitiously and I am
-              endlessly curious.
-              <br /> I am team-oriented, thrive on direct communication and
-              consistent feedback.
+            I am an analytical and creative Software Engineer driven by coming to innovative solutions to novel problems.<br/> I learn ambitiously and am endlessly curious. I am coachable, adaptable and thrive on direct communication and consistent feedback.<br/>  On a team I believe a calm and lighthearted approach allows space for efficient collaboration and effective results.<br/>  I strive to  be a leader and give back via mentorship.<br/>  Software development has been fulfilling as a means to practice each of these characteristics in life.
             </p>
 
             <div>
