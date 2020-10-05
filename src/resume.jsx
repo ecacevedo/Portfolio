@@ -1,7 +1,7 @@
 import React from "react";
 import MyPicture from "./images/IMG_3003.jpg";
 import "./App.scss";
-import ResumePdf from "./images/Resume.pdf";
+import ResumePdf from "./images/resume.pdf";
 
 export default function resume() {
   return (
