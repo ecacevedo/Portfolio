@@ -36,9 +36,9 @@ export default function resume() {
               </div>
             </div>
             <div class="btn-container">
-            {/* <a class="elegant"  target="_blank">
+            <a class="elegant"  target="_blank">
                 View Resume
-            </a> */}
+            </a>
             </div>
           </div>
         </div>
