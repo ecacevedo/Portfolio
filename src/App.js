@@ -9,14 +9,12 @@ import Skills from './skills'
 
 function App() {
   return (
-    <div className="App">
-     
+    <div className="App">   
       <Header />
       <Resume />
       <Skills />
       <Projects />
       <Contact />
-  
     </div>
   );
 }
