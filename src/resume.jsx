@@ -1,7 +1,7 @@
 import React from "react";
 import MyPicture from "./images/IMG_3003.jpg";
 import "./App.scss";
-import ResumePdf from "./images/resume.pdf";
+import ResumePdf1 from "./images/resume.pdf";
 
 export default function resume() {
   return (
@@ -36,7 +36,7 @@ export default function resume() {
               </div>
             </div>
             <div class="btn-container">
-            <a class="elegant" href={ResumePdf} target="_blank">
+            <a class="elegant" href={ResumePdf1} target="_blank">
                 View Resume
             </a>
             </div>
