@@ -283,8 +283,19 @@ a {
 }
 
 
+@media (min-width: 1500px) {
+  .project-image {
+    height: 35vh;
+    width: 59vh;
+  }
+  .project-headers {
+    font-size: 30px;
+  }
+}
 
-@media (min-width: 1300px) {
+
+
+@media (max-width: 1500px) {
   .project-image {
     height: 30vh;
     width: 50vh;
@@ -294,7 +305,7 @@ a {
   }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1237px) {
   .project-image {
     height: 25vh;
     width: 40vh;
