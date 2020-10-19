@@ -8,7 +8,7 @@ export default function projects() {
   return (
     <div className="projects-background" id="projects">
       <div className="projects-title">
-        <h1>Selected Projects</h1>
+        <h1>Projects</h1>
       </div>
       <div className="projects">
         <a
