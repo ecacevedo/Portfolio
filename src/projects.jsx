@@ -1,6 +1,6 @@
 import React from "react";
 import DiningDecider from "./images/DiningDecider.png";
-import GenerativeUnsplash from "./images/GenerativeUnsplash.png";
+import VirtualButterflyDays from "./images/virtualButterflyDays.png"
 import YummyDish from "./images/YummyDish.png";
 import ExchangeZero from "./images/ExchangeZero.png";
 
@@ -20,10 +20,10 @@ export default function projects() {
         <br />
         <a
           className="individual-project"
-          href="https://generativeunsplash.netlify.app"
+          href="https://virtual-butterfly-days.herokuapp.com/"
         >
-          <h2 className="project-headers">Generative Unsplash</h2>
-          <img className="project-image" src={GenerativeUnsplash} />
+          <h2 className="project-headers">Virtual Butterfly Days</h2>
+          <img className="project-image" src={VirtualButterflyDays} />
         </a>
         <br />
         <a className="individual-project" href="http://tan-wrench.surge.sh/">

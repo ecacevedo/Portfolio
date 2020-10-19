@@ -16,7 +16,7 @@ export default function header() {
           <h2>
             Full-Stack Software Engineer
         </h2>
-          
+            
 
         <Link
           activeClass="active"
