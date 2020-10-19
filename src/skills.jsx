@@ -10,13 +10,14 @@ import ReactLogo from "./images/react.png";
 import RubyLogo from "./images/ruby.png";
 import NodeJsLogo from "./images/nodejs.png";
 import RailsLogo from "./images/rails.png";
-import ExpressLogo from "./images/express.png";
 import MongoDBLogo from "./images/mongodb.png";
 import PostgreSQLLogo from "./images/postgresql.png";
 import JestLogo from "./images/jest.png";
 import HerokuLogo from "./images/heroku.png";
 import GithubLogo from "./images/github.png";
 import Ex from "./images/ex.png"
+import SytledComponentsLogo from "./images/styledComponentsLogo.png"
+import ReduxLogo from "./images/reduxLogo.png"
 
 export default function skills() {
   return (
@@ -24,7 +25,7 @@ export default function skills() {
     <div>
        <div className="Skills">
           <ul>
-            <h1>Skills</h1>
+            <h1>Languages & Frameworks</h1>
             <div className="skill-boxes">
             <div className="skill-box">
               <div className="skill-logo-box-individual">
@@ -34,7 +35,13 @@ export default function skills() {
               <div className="skill-logo-box-individual">
                 <img className="skill-logo" src={JsxLogo} />
                 <div>JSX</div>
-              </div>
+                </div>
+
+                <div className="skill-logo-box-individual">
+                <img className="skill-logo" src={JsLogo} />
+                <div>Javascript</div>
+                </div>
+                
             </div>
 
             <br />
@@ -51,19 +58,30 @@ export default function skills() {
               <div className="skill-logo-box-individual">
                 <img className="skill-logo" src={BootstrapLogo} />
                 <div>Bootstrap</div>
-              </div>
+                </div>
+                <div className="skill-logo-box-individual">
+                <img className="skill-logo" src={SytledComponentsLogo} />
+                <div>Styled Components</div>
+                </div>
+                
             </div>
             <br />
 
             <div className="skill-box">
-              <div className="skill-logo-box-individual">
-                <img className="skill-logo" src={JsLogo} />
-                <div>Javascript</div>
-              </div>
-              <div className="skill-logo-box-individual">
+              
+                
+                <div className="skill-logo-box-individual">
                 <img className="skill-logo" src={ReactLogo} />
                 <div>React</div>
-              </div>
+                </div>
+
+                <div className="skill-logo-box-individual">
+                <img className="skill-logo" src={ReduxLogo} />
+                <div>Redux</div>
+                </div>
+                
+
+              
               <div className="skill-logo-box-individual">
                 <img className="skill-logo" src={NodeJsLogo} />
                 <div>Node</div>
