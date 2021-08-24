@@ -10,8 +10,7 @@ export default function contact() {
     <div id="contact">
       <h1>Contact Me</h1>
       <p className="contact-blurb">
-        I live in Mesa, Arizona. Feel free to reach out, I'm currently open to
-        job opportunities.
+        I live in Mesa, Arizona. Feel free to reach out!
       </p>
 
       <div className="contact-grid">

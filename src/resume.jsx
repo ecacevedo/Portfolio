@@ -21,6 +21,9 @@ export default function resume() {
 
             <div>
               <div>
+              <b>Vev</b>
+                <div>Solutions Engineer 2020-current</div>
+              <br/>
                 <b>General Assembly</b>
                 <div>Software Emersive Certificate - 2020</div>
               </div>
